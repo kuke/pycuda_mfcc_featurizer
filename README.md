@@ -7,7 +7,7 @@ Accelerate the mfcc computation by pyCUDA
 
 ## Example
 
-```
+```python
 import pycuda.autoinit
 import scipy.io.wavfile as wav
 from pycuda_mfcc_featurizer import cuMfccFeaturizer
