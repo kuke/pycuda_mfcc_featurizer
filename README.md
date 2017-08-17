@@ -1,11 +1,11 @@
 Accelerate the mfcc computation by pyCUDA
 
-## Dependency
+### Dependency
 
 - pycuda: https://pypi.python.org/pypi/pycuda
 - scikit-cuda: ```pip install scikit-cuda```
 
-## Example
+### Example
 
 ```python
 import pycuda.autoinit
