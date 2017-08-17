@@ -4,6 +4,7 @@ import pycuda.autoinit
 import scipy.io.wavfile as wav
 from pycuda_mfcc_featurizer import cuMfccFeaturizer
 
+# all the other parametes is adaptive except `nfft`
 mfcc_featurizer = cuMfccFeaturizer(nfft=512, batch=426, samplerate=8000)
 
 (rate,sig) = wav.read("english.wav")
