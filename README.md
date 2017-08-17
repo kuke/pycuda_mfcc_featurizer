@@ -1,4 +1,4 @@
-Accelerate the mfcc computation in pyCUDA
+Accelerate the mfcc computation by pyCUDA
 
 ## Dependency
 
